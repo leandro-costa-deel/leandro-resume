@@ -1,6 +1,10 @@
 {
   "name": "leandro-costa-resume",
   "description": "Leandro Costa Resume",
+  "author": {
+    "name": "Leandro Costa",
+    "email": "contato@leandrocosta.pro.br"
+  },
   "version": "0.2.0",
   "private": true,
   "main": "public/electron.js",
@@ -63,7 +67,9 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "lhtest_electron"
+            "name": "leandro_costa_resume",
+            "options": {
+            }
           }
         },
         {
